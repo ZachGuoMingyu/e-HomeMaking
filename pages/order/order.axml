@@ -1,0 +1,38 @@
+<view>
+  <tabs
+    class="tabs"
+    tabs="{{tabs}}"
+    showPlus="{{false}}"
+    onTabClick="handleTabClick"
+    onChange="handleTabChange"
+    onPlusClick="handlePlusClick"
+    activeTab="{{activeTab}}"
+    swipeable="{{false}}"
+    tabBarActiveTextColor="rgb(248,193,117)"
+    tabBarUnderlineColor="rgb(248,193,117)"
+    tabBarCls="tabss"
+  >
+    
+  </tabs>
+</view>
+<view class="zhanwei">
+  
+</view>
+<swiper current="{{activeTab}}" class="swiper-box" duration="300" onChange="onChange">  
+  <swiper-item>  
+    <view>全部订单</view>  
+  </swiper-item>   
+     
+  <swiper-item>  
+    <view>待付款</view>  
+  </swiper-item>   
+ 
+  <swiper-item>  
+    <view>待服务</view>  
+  </swiper-item>
+ 
+  <swiper-item>  
+    <view>待评价</view>  
+  </swiper-item>
+    
+ </swiper>

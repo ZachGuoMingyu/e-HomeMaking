@@ -1,0 +1,15 @@
+.tabs{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.zhanwei{
+  height: 42px;
+}
+

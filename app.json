@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/assist/assist",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "defaultTitle": "e洁家政服务平台"
+  },
+  "tabBar": {
+    "textColor": "#2c2c2c",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "icon": "images/shouye.png",
+        "activeIcon": "images/shouye-2.png",
+        "name": "首页"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "icon": "images/dingdan.png",
+        "activeIcon": "images/dingdan-2.png",
+        "name": "订单"
+      },
+      {
+        "pagePath": "pages/assist/assist",
+        "icon": "images/bangzhu.png",
+        "activeIcon": "images/bangzhu-2.png",
+        "name": "帮助"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "icon": "images/wode.png",
+        "activeIcon": "images/wode-2.png",
+        "name": "我的"
+      }
+    ]
+  }
+}

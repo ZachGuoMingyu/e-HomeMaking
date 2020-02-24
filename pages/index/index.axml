@@ -1,0 +1,18 @@
+<view>
+  <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}" circular="{{ture}}" interval="5000" duration="1000">
+    <block a:for="{{images}}">
+      <swiper-item >
+        <image src="{{item.src}}" mode="scaleToFill" data-id="{{index}}" onTap="imageClick"/>
+      </swiper-item>
+    </block>
+</swiper>
+</view>
+<view style="margin-top: 1px;">
+  <grid onGridItemClick="onItemClick" columnNum="{{3}}" list="{{list1}}" hasLine="{{false}}"/>
+</view>
+<view style="height:2px; background-color:gray;">
+  
+</view>
+<view style="margin-top: 1px;">
+  <grid onGridItemClick="onItemClick2" columnNum="{{3}}" list="{{list2}}"/>
+</view>
