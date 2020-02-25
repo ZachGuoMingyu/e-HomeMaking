@@ -1,3 +1,30 @@
 <view>
-  New Page
+  <list>
+			<view slot="header" style="font-size:18px; color:black;">
+        <view class="iconView"></view>
+				常见问题
+			</view>
+			<block a:for="{{items1}}">
+				<list-item
+					arrow="{{item.arrow}}"
+					onClick="onItemClick1"
+					index="{{index}}"
+					key="{{index}}"
+					last="{{index === (items1.length - 1)}}"
+				>
+          <text style="color:rgb(133,133,133);">{{item.title}}</text>
+				</list-item>
+			</block>
+		</list>
+</view>
+<view>
+  <list>
+		<view slot="header" style="font-size:18px; color:black;">
+      <view class="iconView"></view>
+				更多问题
+		</view>
+	</list>
+</view>
+<view style="margin-top: 1px;">
+  <grid onGridItemClick="onItemClick2" columnNum="{{3}}" list="{{items2}}" hasLine="{{true}}"/>
 </view>

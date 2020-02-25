@@ -1,0 +1,11 @@
+{
+  "defaultTitle": "添加新地址",
+  "usingComponents":{
+    "grid": "mini-antui/es/grid/index",
+    "list": "mini-antui/es/list/index",
+    "list-item": "mini-antui/es/list/list-item/index",
+    "address-picker": "/components/AddressPicker/AddressPicker",
+    "input-item": "mini-antui/es/input-item/index",
+    "picker-item": "mini-antui/es/picker-item/index"
+  }
+}

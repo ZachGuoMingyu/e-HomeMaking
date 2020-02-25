@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/order/order",
     "pages/assist/assist",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/mine/Adress/Adress",
+    "pages/mine/addAddress/addAddress"
   ],
   "window": {
     "defaultTitle": "e洁家政服务平台"

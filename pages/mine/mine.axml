@@ -1,3 +1,38 @@
-<view>
-  New Page
+<view class="header">
+  <view class="icon">
+    <image mode="scaleToFill" src="../../../images/icon.png"/>
+  </view>
+  <view class="info">
+    你好，150xxxx8888
+  </view>
+  <view class="acount">
+    <view class="yue">
+      <view class="yue1">
+        账户余额
+      </view>
+      <view class="yue2">
+        ￥888.00
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="chongzhi">
+      充值
+    </view>
+  </view>
+</view>
+<view style="margin-top:20px;">
+  <list>
+			<block a:for="{{itemsThumb}}">
+				<list-item
+					thumb="{{item.thumb}}"
+					arrow="{{item.arrow}}"
+					onClick="onItemClick"
+					index="{{index}}"
+					last="{{index === (itemsThumb.length - 1)}}"
+					key="{{index}}"
+				>
+					{{item.title}}
+				</list-item>
+			</block>
+		</list>
 </view>

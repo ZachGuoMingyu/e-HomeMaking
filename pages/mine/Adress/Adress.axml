@@ -1,0 +1,26 @@
+<view>
+  <list>
+			<block a:for="{{items}}">
+				<list-item
+					thumb="{{item.thumb}}"
+					arrow="{{item.arrow}}"
+					onClick="click"
+					index="{{index}}"
+					last="{{index === (items.length - 1)}}"
+					key="{{index}}"
+					multipleLine="{{true}}"
+          data-id="{{item.title}}"
+				>
+					{{item.title}}
+					<view class="am-list-brief">{{item.brief}}</view>
+          <view slot="extra">
+						<image src='../../../images/duigou.png' class='select_city_icon' a:if="{{selectCity==item.title}}"></image>
+					</view>
+          
+				</list-item>
+			</block>
+		</list>
+</view>
+<view class="btn">
+  <button size="default" type="primary" onTap="addAddress">添加地址</button>
+</view>

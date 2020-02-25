@@ -1,0 +1,56 @@
+<!-- transparent为变更 input 是否透明 -->
+<view class="page">
+  <view>
+    <form onSubmit="onSubmit">
+      <view class="page-section">
+        <view class="form-row">
+          <view class="form-row-label">收货人</view>
+          <view class="form-row-content">
+            <input name="name" class="input" placeholder="收货人姓名" />
+          </view>
+        </view>
+        <view class="form-line" />
+        <view class="form-row">
+          <view class="form-row-label">联系电话</view>
+          <view class="form-row-content">
+            <input name="telNum" class="input" placeholder="电话" />
+          </view>
+        </view>
+        <view class="form-line" />
+          <picker-item 
+            name="city" 
+            placeholder="选择地区" 
+            value="{{city}}" 
+            onPickerTap="onPickerTap"
+            className="pItem"
+            pickerCls="pickerCls"
+          >
+              发卡银行
+          </picker-item>
+          
+        <view class="form-line" />
+        <view class="form-row">
+          <view class="form-row-label">街道</view>
+          <view class="form-row-content">
+            <input name="jiedao" class="input" placeholder="街道" />
+          </view>
+        </view>
+        <view class="form-line" />
+        <view class="form-row-textarea">
+          <textarea name="address" auto-height placeholder="请填写详细地址，不少于五个字" />
+        </view>
+      </view>
+      <view class="page-section">
+        <view class="form-row">
+          <view class="form-row-label">默认</view>
+          <view class="form-row-content" style="text-align: right">
+            <switch name="switch" onChange="switchChange" />
+          </view>
+        </view>
+      </view>
+      <view>
+        <button type="primary" size="mini" formType="submit">保存</button>
+      </view>
+    </form>
+    <address-picker visible="{{pickerVisible}}" onChange="addressPickerChange"></address-picker>
+</view>

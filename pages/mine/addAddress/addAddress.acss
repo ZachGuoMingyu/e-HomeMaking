@@ -1,0 +1,62 @@
+page {
+  background-color: #F7F7F7;
+  box-sizing: border-box;
+}
+.page {
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 24rpx;
+  padding: 32rpx;
+  flex: 1;
+}
+
+.page-section {
+  background: #fff;
+  margin-bottom: 32rpx;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 88rpx;
+  align-items: center;
+}
+
+.form-row-label {
+  width: 180rpx;
+  font-size: 25rpx;
+  margin-right: 10rpx;
+  text-align: left;
+  color: #000;
+}
+
+.form-row-content {
+  flex: 1;
+  font-size: 25rpx;
+  color: #cccccc;
+  margin-left: 100px;
+}
+
+.form-line {
+  height: 1px;
+  background-color: #ddd;
+  margin-left: 30rpx;
+}
+input{
+  font-size: 25rpx;
+}
+textarea{
+  font-size: 25rpx;
+}
+.pItem{
+    font-size: 25rpx; 
+}
+.pickerCls{
+    margin-left: 40px;
+}
+.form-row-textarea{
+  flex: 1;
+  font-size: 25rpx;
+  color: #cccccc;
+  margin-left: 10px;
+}

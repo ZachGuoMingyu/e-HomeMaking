@@ -8,6 +8,20 @@
   height: 100%;
   width: 100%;
   overflow: hidden;
+  position: relative;
+}
+.swiper-box .swiper-view{
+  text-align: center;
+  height: 600px;
+  margin-top: 150px;
+}
+.swiper-box .swiper-view image{
+  width: 100px;
+  height: 85px;
+}
+.swiper-box .swiper-view view{
+  font-size: 15px;
+  color: gray;
 }
 .zhanwei{
   height: 42px;

@@ -20,19 +20,39 @@
 </view>
 <swiper current="{{activeTab}}" class="swiper-box" duration="300" onChange="onChange">  
   <swiper-item>  
-    <view>全部订单</view>  
+    <view class="swiper-view">
+      <image mode="scaleToFill" src="../../../images/meiyoudingdan.png"/>
+      <view>
+        您还没有订单
+      </view>
+    </view>  
   </swiper-item>   
      
   <swiper-item>  
-    <view>待付款</view>  
+    <view class="swiper-view">
+      <image mode="scaleToFill" src="../../../images/meiyoudingdan.png"/>
+      <view>
+        您还没有订单
+      </view>
+    </view>  
   </swiper-item>   
  
   <swiper-item>  
-    <view>待服务</view>  
+    <view class="swiper-view">
+      <image mode="scaleToFill" src="../../../images/meiyoudingdan.png"/>
+      <view>
+        您还没有订单
+      </view>
+    </view>  
   </swiper-item>
  
   <swiper-item>  
-    <view>待评价</view>  
+    <view class="swiper-view">
+      <image mode="scaleToFill" src="../../../images/meiyoudingdan.png"/>
+      <view>
+        您还没有订单
+      </view>
+    </view>  
   </swiper-item>
     
  </swiper>

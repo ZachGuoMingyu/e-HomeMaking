@@ -1,0 +1,8 @@
+.iconView{
+    height:18px; 
+    width:3px; 
+    background-color:orange; 
+    float:left;
+    margin-right: 4px;
+    margin-top: 1px;
+}
